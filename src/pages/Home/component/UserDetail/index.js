@@ -19,11 +19,9 @@ const index = () => {
           </p>
         </StyledHomeUserDetailSinglePartDetail>
         <StyledHomeUserDetailSinglePartDetail>
-          <h5>CONTACT</h5>
+          <h5>Smart</h5>
           <p>
-            ARDABIL, IRAN <br />
-            eisa.eisa.r.r@gmail.com <br />
-            +98 930 961 3322
+            We do smart memoization and don't allow your app to re-render
           </p>
         </StyledHomeUserDetailSinglePartDetail>
         <StyledHomeUserDetailSinglePartDetail>
