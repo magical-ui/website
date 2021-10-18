@@ -12,10 +12,10 @@ const index = () => {
       <StyledHomeUserDetailSinglePart>
 
         <StyledHomeUserDetailSinglePartDetail>
-          <h5>BIOGRAPHY</h5>
+          <h5>Tiny</h5>
           <p>
-            I am jesus, A frontend technologies curios person who is trying
-            every new library a day after release.
+            It is all 25Kb minimized and gzipped. <br />
+            Nothing fancy, just a simple and clever design.
           </p>
         </StyledHomeUserDetailSinglePartDetail>
         <StyledHomeUserDetailSinglePartDetail>
