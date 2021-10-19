@@ -25,11 +25,9 @@ const index = () => {
           </p>
         </StyledHomeUserDetailSinglePartDetail>
         <StyledHomeUserDetailSinglePartDetail>
-          <h5>SERVICES</h5>
+          <h5>Robust</h5>
           <p>
-            website Design and Develop <br />
-            React web Applications <br />
-            Working as a team
+            We have a strong type system and we don't allow you to make mistakes
           </p>
         </StyledHomeUserDetailSinglePartDetail>
       </StyledHomeUserDetailSinglePart>

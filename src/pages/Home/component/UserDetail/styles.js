@@ -105,10 +105,10 @@ export const StyledHomeUserDetailSinglePartDetail = styled.div`
   justify-content: space-evenly;
   & h5 {
     color: #b48d5d;
-    font-weight: 600;
-    font-size: 17px;
+    font-weight: ${(props) => props.psize ? 600 : 900};
+    font-size: ${(props) => props.psize ? 17 : 24}px;
     position: relative;
-    bottom: -8px;
+    bottom: ${(props) => props.psize ? -8 : -16}px;
     text-align: ${(props) => props.textalign};
   }
   & p {
