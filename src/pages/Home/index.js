@@ -3,33 +3,29 @@ import { Suspense } from "react";
 
 import Loading from "../Loading";
 
-import { StyledHomeCt, StyledSpliceBorder } from "./styles";
+import { StyledHomeCt, StyledSpliceBorder, StyledSpliceBorderGame } from "./styles";
 import Footer from "./component/Footer";
-import LastestProject from "./component/LastestProjects";
-import Header from "./component/Header";
 import Title from "./component/Title";
 import UserDetail from "./component/UserDetail";
 import Advantage from "./component/Advantage";
 import Education from "./component/Education";
 import Circle from "./component/Circle";
+import TopLogo from "./component/TopLogo";
 
 const Home = () => {
   return (
     <Suspense fallback={<Loading />}>
       <StyledHomeCt>
-        <Header />
-        <StyledSpliceBorder />
+        <TopLogo />
         <Title />
+        <StyledSpliceBorder />
         <UserDetail />
         <StyledSpliceBorder />
         <Advantage />
         <StyledSpliceBorder />
         <Education />
-        <StyledSpliceBorder />
-        <LastestProject />
-        <StyledSpliceBorder />
+        <StyledSpliceBorderGame />
         <Circle />
-        <StyledSpliceBorder />
         <Footer />
       </StyledHomeCt>
     </Suspense>

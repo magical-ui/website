@@ -17,13 +17,14 @@ export const StyledHomeMyAdvantage = styled.div`
 `;
 export const StyledHomeMyAdvantageIconsBar = styled.section`
   width: 100%;
-  height: 300px;
+  min-height: 300px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
   margin-top: 40px;
   padding: 0 5vw;
+  flex-wrap: wrap;
   @media (max-width: 600px) {
     height: auto;
     margin-top: 10px;
@@ -35,7 +36,7 @@ export const StyledHomeMyAdvantageIconsBar = styled.section`
 `;
 export const StyledHomeMyAdvantageSingle = styled.article`
   width: 15vw;
-  height: 100%;
+  height: 240px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

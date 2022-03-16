@@ -7,36 +7,34 @@ import {
   StyledHomeEducationSection,
 } from "./styles";
 
+const Item = ({ version, date, changes }) => (
+  <>
+    <header>{date}</header>
+    <span>
+      <h5>{version}</h5>
+      <p>{changes.join("\n")}</p>
+    </span>
+  </>
+)
+
 const index = () => {
   return (
     <StyledHomeEducation>
-      <h2>My Education & Experience</h2>
+      <h2>Changes History</h2>
       <StyledHomeEducationSection>
         <StyledHomeEducationArticle>
-          <header> 2018 - 2019 </header>
-          {Education.first_part.map(({ title, caption }, index) => (
-            <span key={index}>
-              <h5>{title}</h5>
-              <p>{caption}</p>
-            </span>
+          {Education.first_part.map(({ version, date, changes }, index) => (
+            <Item version={version} date={date} changes={changes} key={index} />
           ))}
         </StyledHomeEducationArticle>
         <StyledHomeEducationArticle>
-          <header> 2019 - 2020</header>
-          {Education.secound_part.map(({ title, caption }, index) => (
-            <span key={index}>
-              <h5>{title}</h5>
-              <p>{caption}</p>
-            </span>
+          {Education.secound_part.map(({ version, date, changes }, index) => (
+            <Item version={version} date={date} changes={changes} key={index} />
           ))}
         </StyledHomeEducationArticle>
         <StyledHomeEducationArticle>
-          <header> 2020 - 2021 </header>
-          {Education.third_part.map(({ title, caption }, index) => (
-            <span key={index}>
-              <h5>{title}</h5>
-              <p>{caption}</p>
-            </span>
+          {Education.third_part.map(({ version, date, changes }, index) => (
+            <Item version={version} date={date} changes={changes} key={index} />
           ))}
         </StyledHomeEducationArticle>
       </StyledHomeEducationSection>

@@ -1,14 +1,22 @@
 import styled from "styled-components";
 
 export const StFooterContainer = styled.main`
-  width: 100vw;
   height: auto;
-  padding: 30px;
-  font-size: 0.9rem;
+  font-size: 12p;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  opacity: 0.6;
+  justify-content: center;
+  margin: 80px 0;
+  
+  h4, span {
+    font-weight: 400;
+  }
+  span {
+    margin-top: 10px;
+    font-size: 0.8rem;
+  }
 
   @media (max-width: 600px) {
     padding: 15px;
@@ -16,24 +24,5 @@ export const StFooterContainer = styled.main`
     & h4:first-child {
       display: NONE;
     }
-  }
-`;
-
-export const StyledFooterIconsBar = styled.div`
-  width: 15vw;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 1.5rem;
-  & svg {
-    cursor: pointer;
-    :hover {
-      color: #909090;
-    }
-  }
-  @media (max-width: 600px) {
-    width: 30vw;
-    font-size: 1rem;
   }
 `;

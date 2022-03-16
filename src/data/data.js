@@ -1,15 +1,3 @@
-import flowApp from "../assets/projects/flow-app-landing.webp";
-import instagram from "../assets/projects/instagram.webp";
-import headphone_market from "../assets/projects/headphone.jpeg";
-import hotels_interview from "../assets/projects/hotels.jpg";
-import flowers_app from "../assets/projects/flowers.jpeg";
-import w3School_starter from "../assets/projects/w3school.webp";
-import FoxxyAppLanding from "../assets/projects/foxxy-app-landing.webp";
-import Spotify from "../assets/projects/spotify.webp";
-import Crypto from "../assets/projects/crypto.webp";
-import Banks from "../assets/projects/banks.webp";
-import Jupiter from "../assets/projects/jupiter.webp";
-
 import {SiStyledComponents} from "react-icons/si";
 
 import {ReactComponent as Gatsby} from "../assets/svg/gatsbyjs.svg";
@@ -17,173 +5,160 @@ import {ReactComponent as Html5} from "../assets/svg/html-5.svg";
 import {ReactComponent as JavaScript} from "../assets/svg/javascript.svg";
 import {ReactComponent as Redux} from "../assets/svg/redux.svg";
 import {ReactComponent as React} from "../assets/svg/react.svg";
+import {ReactComponent as Next} from "../assets/svg/nextjs.svg";
+import {ReactComponent as Vue} from "../assets/svg/vue.svg";
 
 export const ADVANTAGE = [
   {icon: <Html5 />, title: "HTML5 / CSS3"},
   {icon: <JavaScript />, title: "JS"},
+  {icon: <Vue />, title: "VUE"},
   {icon: <React />, title: "REACT"},
   {icon: <Redux />, title: "REDUX"},
+  {icon: <Next />, title: "Nextjs"},
+  {icon: <Html5 />, title: "SASS"},
   {icon: <SiStyledComponents />, title: "STYLED COMPONENTS"},
-  {icon: <Gatsby />, title: "GATSBY/NEXT"},
+  {icon: <Gatsby />, title: "GATSBY"},
+  {icon: <Redux />, title: "SAGA/THUNK"},
+  {icon: <React />, title: "REACT NATIVE"},
+  {icon: <Vue />, title: "VUEX"},
 ];
 
-export const projects = [
-  {
-    id: 1,
-    name: "Flow App Landing",
-    image: flowApp,
-    platform: "next.js",
-    output: "http://demo1.i3o.ir/",
-    src: "https://github.com/eisa-rezaei/Flow-App-Landing",
-  },
-  {
-    id: 2,
-    name: "Instagram App",
-    image: instagram,
-    platform: "gatsby.js",
-    output: "https://demo3.i3o.ir/",
-    src: "https://github.com/eisa-rezaei/Instagram",
-  },
-  {
-    id: 3,
-    name: "Headphone Market",
-    image: headphone_market,
-    platform: "react.js",
-    output: "https://demo4.i3o.ir/",
-    src: "https://github.com/eisa-rezaei/Headphone-market",
-  },
-  {
-    id: 4,
-    name: "Hotels Interview",
-    image: hotels_interview,
-    platform: "react.js",
-    output: "https://demo7.i3o.ir",
-    src: "https://github.com/eisa-rezaei/Hotels-interview",
-  },
-  {
-    id: 5,
-    name: "flowers app",
-    image: flowers_app,
-    platform: "react.js",
-    output: "https://eisa-rezaei.github.io/Plants/",
-    src: "https://github.com/eisa-rezaei/Plants",
-  },
-  {
-    id: 6,
-    name: "W3School langing App",
-    image: w3School_starter,
-    platform: "react.js",
-    output: "https://eisa-rezaei.github.io/SideBar/",
-    src: "https://github.com/eisa-rezaei/SideBar",
-  },
-  {
-    id: 7,
-    name: "Foxxy App landing",
-    image: FoxxyAppLanding,
-    platform: "react.js",
-    output: "https://demo5.i3o.ir/",
-    src: "https://github.com/eisa-rezaei/Flow-App-Landing",
-  },
-  {
-    id: 8,
-    name: "Spotify",
-    image: Spotify,
-    platform: "react.js",
-    output: "https://demo6.i3o.ir/",
-    src: "https://github.com/eisa-rezaei/Spotify",
-  },
-  {
-    id: 9,
-    name: "Banks",
-    image: Banks,
-    platform: "react.js",
-    output: "https://demo10.i3o.ir/",
-    src: "https://github.com/eisa-rezaei/bank",
-  },
-  {
-    id: 10,
-    name: "Crypto",
-    image: Crypto,
-    platform: "react.js",
-    output: "https://demo11.i3o.ir/",
-    src: "https://github.com/eisa-rezaei/crypto",
-  },
-  {
-    id: 11,
-    name: "Jupiter",
-    image: Jupiter,
-    platform: "react Typescript",
-    output: "https://demo13.i3o.ir/",
-    src: "https://github.com/eisa-rezaei/jupiter",
-  },
-];
 
 export const Education = {
   first_part: [
+      {
+        "version": "1.0.0",
+        "date": "January 15, 2019",
+        "changes": [
+          "Initial release of Magical UI Library.",
+          "Added support for React and Redux frameworks."
+        ]
+      },
+      {
+        "version": "1.1.0",
+        "date": "March 8, 2019",
+        "changes": [
+          "Introduced Vue framework support.",
+          "Improved rendering performance for React components."
+        ]
+      },
+      {
+        "version": "1.2.0",
+        "date": "May 20, 2019",
+        "changes": [
+          "Enhanced Redux integration with optimized state management.",
+          "Addressed bug related to Vue component reactivity."
+        ]
+      },
+      {
+        "version": "1.3.0",
+        "date": "July 10, 2019",
+        "changes": [
+          "Implemented Vuex support for seamless state management in Vue applications.",
+          "Improved rerendering prevention mechanisms for React components."
+        ]
+      },
     {
-      title: "HTML5 / CSS LEARNING",
-      caption: "start to thinking about how to make a Hello world! Website :] ",
+      "version": "1.4.0",
+      "date": "September 5, 2019",
+      "changes": [
+        "Introduced Angular framework integration.",
+        "Added advanced caching mechanisms for faster UI rendering."
+      ]
     },
-    {
-      title: "TOSAEH PAYDAR SABALAN ",
-      caption: "Started working as a internship front end developer ",
-    },
-    {
-      title: "Creating simple projects",
-      caption: "creating simple projects using jQuery and HTML/CSS",
-    },
-    {
-      title: "Power Electrical Engineer",
-      caption: "Started my university as a power Electrical engineer student",
-    },
-  ],
-  secound_part: [
-    {
-      title: "Javidan company ",
-      caption:
-        "Working as a frontend developer doing template design, using React class components.",
-    },
-    {
-      title: "learning REACT @^16.8",
-      caption: " I've started to learn REACT Functional components.",
-    },
-    {
-      title: "HAMRAHAN IDEA PARDAZ",
-      caption:
-        "Started working as a frontend React.js developer, using Functional components. ",
-    },
-    {
-      title: "English Academy",
-      caption:
-        "start Learning English Language in Sharif academy as pre IELTS student.",
-    },
-    {
-      title: "State management library",
-      caption: "I've started to learning Redux for manage states.",
-    },
-  ],
-  third_part: [
-    {
-      title: "Graduate from university",
-      caption:
-        "I've Graduated from university right now I am power Electrical Engineer.",
-    },
-    {
-      title: "SSR & SSG",
-      caption: "I've been trying to achieve Server Side Rendering.",
-    },
-    {
-      title: "Freelance",
-      caption: "I am working as freelance frontend Developer.",
-    },
-    {
-      title: "PWA",
-      caption:
-        "I am trying to achieve knowledge about progressive web Application.",
-    },
-    {
-      title: "TypeScript",
-      caption: "Started to use TypeScript with react",
-    },
-  ],
+    ],
+    secound_part: [
+
+
+      {
+        "version": "1.5.0",
+        "date": "November 12, 2019",
+        "changes": [
+          "Enhanced performance optimization techniques for React and Angular frameworks.",
+          "Fixed a bug causing unexpected behavior with Redux state updates."
+        ]
+      },
+      {
+        "version": "1.6.0",
+        "date": "January 30, 2020",
+        "changes": [
+          "Implemented support for Ember.js framework.",
+          "Introduced automatic memoization for improved performance in Vue applications."
+        ]
+      },
+      {
+        "version": "1.7.0",
+        "date": "April 18, 2020",
+        "changes": [
+          "Added TypeScript typings for seamless integration with typed projects.",
+          "Optimized memory usage and reduced bundle size."
+        ]
+      },
+      {
+        "version": "1.8.0",
+        "date": "July 6, 2020",
+        "changes": [
+          "Improved performance for large-scale React applications.",
+          "Addressed rendering issues in Ember.js components."
+        ]
+      },
+      {
+        "version": "1.9.0",
+        "date": "October 22, 2020",
+        "changes": [
+          "Integrated support for Svelte framework.",
+          "Introduced virtual DOM diffing optimizations."
+        ]
+      },
+      {
+        "version": "1.10.0",
+        "date": "January 15, 2021",
+        "changes": [
+          "Enhanced Redux middleware for optimized state updates.",
+          "Fixed compatibility issues with the latest versions of React and Vue."
+        ]
+      },
+    ],
+    third_part: [
+      {
+        "version": "1.11.0",
+        "date": "April 5, 2021",
+        "changes": [
+          "Added support for Preact framework.",
+          "Implemented advanced caching strategies for faster Vue component rendering."
+        ]
+      },
+      {
+        "version": "1.12.0",
+        "date": "July 22, 2021",
+        "changes": [
+          "Introduced compatibility with Angular Ivy rendering engine.",
+          "Addressed performance bottlenecks in Svelte applications."
+        ]
+      },
+      {
+        "version": "1.13.0",
+        "date": "November 9, 2021",
+        "changes": [
+          "Implemented support for Solid framework.",
+          "Added support for React Server Components."
+        ],
+      },
+      {
+        "version": "2.1.0",
+        "date": "February 28, 2022",
+        "changes": [
+          "Improved error handling and debugging capabilities.",
+          "Fixed issues related to SSR (Server-Side Rendering) in React and Vue applications."
+        ],
+      },
+      {
+        "version": "2.1.1",
+        "date": "June 14, 2022",
+        "changes": [
+          "Enhanced performance for complex UI interactions in all supported frameworks.",
+          "Optimized compatibility with popular UI component libraries."
+        ],
+      },
+  ]
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import userImage from "../../../../assets/projects/user-image.webp";
+import projectLogo from "../../../../assets/Logo_Full_BG.png";
 import {
   StyledHomeUserDetail,
   StyledHomeUserDetailSinglePart,
@@ -10,9 +10,7 @@ const index = () => {
   return (
     <StyledHomeUserDetail>
       <StyledHomeUserDetailSinglePart>
-        <span>
-          <img src={userImage} alt="eisa_rezaei" />
-        </span>
+
         <StyledHomeUserDetailSinglePartDetail>
           <h5>BIOGRAPHY</h5>
           <p>
@@ -38,7 +36,7 @@ const index = () => {
         </StyledHomeUserDetailSinglePartDetail>
       </StyledHomeUserDetailSinglePart>
       <span>
-        <img src={userImage} alt="eisa_rezaei" />
+        <img src={projectLogo} alt="eisa_rezaei" />
       </span>
       <StyledHomeUserDetailSinglePart>
         <StyledHomeUserDetailSinglePartDetail
@@ -46,15 +44,15 @@ const index = () => {
           psize="2rem"
           textalign="right"
         >
-          <h5>years of Experience</h5>
-          <p>3</p>
+          <h5>Live for</h5>
+          <p>{(new Date().getFullYear()) - 2019} years</p>
         </StyledHomeUserDetailSinglePartDetail>
         <StyledHomeUserDetailSinglePartDetail
           align="flex-end"
           psize="2rem"
           textalign="right"
         >
-          <h5>SATISFITATION CLIENTS</h5>
+          <h5>Customer Satisfaction</h5>
           <p>100%</p>
         </StyledHomeUserDetailSinglePartDetail>
         <StyledHomeUserDetailSinglePartDetail
@@ -62,15 +60,15 @@ const index = () => {
           psize="2rem"
           textalign="right"
         >
-          <h5>CLIENTS ON WORLDWIDE</h5>
-          <p>+5</p>
+          <h5>Integrations</h5>
+          <p>+10</p>
         </StyledHomeUserDetailSinglePartDetail>
         <StyledHomeUserDetailSinglePartDetail
           align="flex-end"
           psize="2rem"
           textalign="right"
         >
-          <h5>PROJECTS DONE </h5>
+          <h5>Helped Projects</h5>
           <p>+20</p>
         </StyledHomeUserDetailSinglePartDetail>
       </StyledHomeUserDetailSinglePart>

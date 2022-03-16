@@ -42,10 +42,12 @@ export const StyledHomeEducationArticle = styled.article`
     color: #a0a0a0;
   }
   & span {
-    margin: 20px 0;
+    margin: 12px 0 40px 0;
     font-size: 1.2rem;
+    
     & p {
       margin-top: 10px;
+      font-weight: 400;
       color: #909090;
     }
   }

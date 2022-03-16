@@ -10,7 +10,7 @@ import {
 const index = () => {
   return (
     <StyledHomeMyAdvantage>
-      <h2>My Advantage</h2>
+      <h2>Integrations</h2>
       <StyledHomeMyAdvantageIconsBar>
         {ADVANTAGE.map(({icon, title}, index) => (
           <StyledHomeMyAdvantageSingle key={index}>

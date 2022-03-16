@@ -16,7 +16,7 @@ export const StCirCleContainer = styled.main`
 export const StCirCleContent = styled.div`
   width: 250px;
   height: 250px;
-  padding: 10px 70px;
+  padding: 42px 57px;
   font-size: 1.5rem;
   border-radius: 50%;
   position: relative;
@@ -45,10 +45,11 @@ export const StCirCleContent = styled.div`
   }
 
   & p {
-    width: 80px;
-    font-size: 0.5rem;
+    width: 135px;
+    font-size: 11px;
     color: #a0a0a0;
     z-index: 2;
+    font-weight: 400;
   }
   & h2 {
     margin-top: 10px;
@@ -57,7 +58,7 @@ export const StCirCleContent = styled.div`
   }
   & svg {
     font-size: 2rem;
-    margin-top: 30px;
+    margin-top: 12px;
     z-index: 2;
   }
 `;

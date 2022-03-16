@@ -4,12 +4,12 @@ import { StyledHomeTitle } from "./styles";
 const index = () => {
   return (
     <StyledHomeTitle>
-      <h2>Eisa Rezaei </h2>
-      <h2>React.js developer </h2>
-      {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
-      <a href="./resume/Eisa_Rezaei.pdf" target="_blank">
-        Download Resume
-      </a>
+      <h2 className="rainbow-text">Unleash the Power of Performance</h2>
+      <p>
+        Unlock the Power of Lightning-Fast Performance for React, Redux, Vue, Vuex, and More! Magical UI is a game-changing library that seamlessly integrates with popular frameworks like React, Redux, Vue, and Vuex, providing developers with an enchanting solution to prevent unnecessary rerendering and achieve remarkable performance gains.
+      </p>
+      <span className="rocket">🚀</span>
+      <span className="tada">🎉</span>
     </StyledHomeTitle>
   );
 };

@@ -6,12 +6,11 @@ to {transform:translateX(100%);}
 
 export const StyledHomeUserDetail = styled.section`
   width: 100%;
-  height: 100vh;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 5vw 0 auto;
   overflow: hidden;
 
   margin-bottom: 60px;
@@ -19,19 +18,19 @@ export const StyledHomeUserDetail = styled.section`
     display: none;
   }
   & span {
-    width: 50vw;
+    width: 30vw;
     height: 100%;
-    background-color: #eef3ee;
-    border-radius: 300px;
+    background-color: #b48d5d;
+    border-radius: 104px;
     overflow: hidden;
-    border: 1px solid gray;
+    border: 2px solid #b48d5d;
 
     & img {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      border: 30px solid #fff;
-      border-radius: 300px;
+      border: 15px solid #fff;
+      border-radius: 100px;
       z-index: 2;
       ::after {
         height: 100%;
@@ -85,7 +84,7 @@ export const StyledHomeUserDetailSinglePart = styled.article`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 100px 5vw;
+  padding: 18px 5vw;
 
   @media (max-width: 600px) {
     min-width: 100%;
@@ -99,22 +98,23 @@ export const StyledHomeUserDetailSinglePart = styled.article`
 
 export const StyledHomeUserDetailSinglePartDetail = styled.div`
   width: 100%;
-  min-height: ${(props) => (props.psize ? `150px` : `180px`)};
+  min-height: ${(props) => (props.psize ? `100px` : `135px`)};
   display: inherit;
   flex-direction: column;
   align-items: ${(props) => props.align};
   justify-content: space-evenly;
   & h5 {
-    width: 6rem;
-    color: #d0d0d0;
-    font-size: 0.8rem;
-    font-variant: small-caps;
+    color: #b48d5d;
+    font-weight: 600;
+    font-size: 17px;
+    position: relative;
+    bottom: -8px;
     text-align: ${(props) => props.textalign};
   }
   & p {
     width: 100%;
-    line-height: 1.6rem;
-    text-transform: capitalize;
+    line-height: 1.2rem;
+    font-weight: ${(props) => props.psize ? 900 : 400};
     font-size: ${(props) => props.psize};
     text-align: ${(props) => props.textalign};
   }

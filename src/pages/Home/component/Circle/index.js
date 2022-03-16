@@ -5,10 +5,10 @@ import { StCirCleContainer, StCirCleContent } from "./styles";
 const Circle = () => {
   return (
     <StCirCleContainer id="Circle">
-      <a href="mailto:Eisa.eisa.r.r@gamil.com" target="_blank" rel="noreferrer">
+      <a href="mailto:sayjeyhi@gamil.com" target="_blank" rel="noreferrer">
         <StCirCleContent>
-          <p>Contact and call for coding</p>
-          <h2>Call Jesus</h2>
+          <p>Call us for support</p>
+          <h2>Contact Us!</h2>
           <ImArrowUpRight2 />
         </StCirCleContent>
       </a>
