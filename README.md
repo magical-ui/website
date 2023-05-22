@@ -24,4 +24,3 @@ We use client side routing to make the website feel like a single page applicati
 
 ## Contribution guidelines
 Follow clean code principles and the Code of Conduct.
-
