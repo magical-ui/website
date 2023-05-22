@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./Logo_Full_Slogan.png" alt="Magical UI - Trademarks" width="400px" />
+  <img src="./.github/Logo_Full_Slogan.png" alt="Magical UI - Trademarks" width="400px" />
   <br>
 </p>
 
