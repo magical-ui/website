@@ -1,6 +1,5 @@
 import React from "react";
-import { FaGithub, FaInstagram, FaLinkedin, FaTelegram } from "react-icons/fa";
-import { StFooterContainer, StyledFooterIconsBar } from "./styles";
+import { StFooterContainer } from "./styles";
 
 const Footer = () => {
   return (
