@@ -106,7 +106,7 @@ export const StyledHomeUserDetailSinglePartDetail = styled.div`
   & h5 {
     color: #b48d5d;
     font-weight: ${(props) => props.psize ? 600 : 900};
-    font-size: ${(props) => props.psize ? 17 : 24}px;
+    font-size: ${(props) => props.psize ? 17 : 32}px;
     position: relative;
     bottom: ${(props) => props.psize ? -8 : -16}px;
     text-align: ${(props) => props.textalign};

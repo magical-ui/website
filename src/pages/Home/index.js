@@ -11,6 +11,7 @@ import Advantage from "./component/Advantage";
 import Education from "./component/Education";
 import Circle from "./component/Circle";
 import TopLogo from "./component/TopLogo";
+import GettingStarted from "./component/GettingStarted";
 
 const Home = () => {
   return (
@@ -22,6 +23,8 @@ const Home = () => {
         <UserDetail />
         <StyledSpliceBorder />
         <Advantage />
+        <StyledSpliceBorder />
+        <GettingStarted />
         <StyledSpliceBorder />
         <Education />
         <StyledSpliceBorderGame />
