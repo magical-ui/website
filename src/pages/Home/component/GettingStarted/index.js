@@ -1,10 +1,7 @@
 import React from "react";
-import {ADVANTAGE} from "../../../../data/data";
 
 import {
   StyledHomeMyAdvantage,
-  StyledHomeMyAdvantageIconsBar,
-  StyledHomeMyAdvantageSingle,
 } from "./styles";
 
 const index = () => {
