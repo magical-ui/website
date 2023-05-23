@@ -95,15 +95,26 @@ export const StyledHomeTitle = styled.div`
   }
 
   @media (max-width: 600px) {
-    height: 20vh;
     padding: 0;
     & h2 {
       width: 100%;
-      font-size: 1rem;
       text-align: center;
+      font-size: 1.3rem;
+      top: 0;
     }
     & a {
       margin-top: 10px;
+    }
+    .rocket, .tada {
+      font-size: 2.4rem;
+    }
+    .tada {
+      top: -14vw;
+      right: 6vw;
+    }
+    .rocket {
+      top: -12vw;
+      left: 6vw;
     }
   }
 `;

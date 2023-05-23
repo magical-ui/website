@@ -54,6 +54,15 @@ export const StyledHomeEducationArticle = styled.article`
   @media (max-width: 600px) {
     width: 100%;
     min-height: auto;
-    border-bottom: 1px solid gray;
+    margin-top: 0;
+    span {
+      border-bottom: 1px solid #cfcfcf;
+      padding-bottom: 26px;
+      margin-bottom: 26px;
+      
+      &:last-child {
+        border-bottom: none;
+      }
+    }
   }
 `;

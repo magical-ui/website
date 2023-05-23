@@ -78,5 +78,13 @@ export const StyledHomeMyAdvantage = styled.div`
   @media (max-width: 600px) {
     padding: 40px 0;
     font-size: 1rem;
+    table {
+      width: calc(100% - 10vw);
+    }
+    p {
+      margin: 20px 38px;
+      font-size: 1rem;
+      text-align: center;
+    }
   }
 `;

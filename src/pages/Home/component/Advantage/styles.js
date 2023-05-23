@@ -92,8 +92,8 @@ export const StyledHomeMyAdvantageSingle = styled.article`
       text-align: center;
     }
     & span {
-      max-width: 120px;
-      height: 180px;
+      max-width: 200px;
+      height: 200px;
 
       & p {
         font-size: 0.8rem;
